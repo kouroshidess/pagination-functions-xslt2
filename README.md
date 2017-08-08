@@ -2,6 +2,7 @@
 XSLT approach that helps custmoise and create pagination items simialr to the ones offered by Bootstrap pagination component. 
 http://getbootstrap.com/components/#pagination
 
+```<xsl:sequence select="p:list(0, 10, 100)"/>```
 ```
 <xsl:function name="p:list" as="element(ul)">
     <xsl:param name="offset"/>
@@ -9,9 +10,6 @@ http://getbootstrap.com/components/#pagination
     <xsl:param name="count"/>
     <!-- ... -->
 </xsl:function>
-```
-```
-<xsl:sequence select="p:list(0, 10, 100)"/>
 ```
 ```
 <ul>
