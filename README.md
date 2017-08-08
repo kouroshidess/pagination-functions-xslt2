@@ -9,13 +9,11 @@ http://getbootstrap.com/components/#pagination
     <xsl:param name="count"/>
     <!-- ... -->
 </xsl:function>
-
-<!-- ... -->
-
+```
+```
 <xsl:sequence select="p:list(0, 10, 100)"/>
-
-<!-- ... -->
-
+```
+```
 <ul>
    <li class="disabled">
       <a href="#">Previous</a>
