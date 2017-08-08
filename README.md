@@ -2,6 +2,7 @@
 XSLT approach that helps custmoise and create pagination items simialr to the ones offered by Bootstrap pagination component. 
 http://getbootstrap.com/components/#pagination
 
+```
 <xsl:function name="p:list" as="element(ul)">
     <xsl:param name="offset"/>
     <xsl:param name="limit"/>
@@ -44,4 +45,4 @@ http://getbootstrap.com/components/#pagination
       <a href="http://localhost/table.html?offset=10">Next</a>
    </li>
 </ul>
-
+```
