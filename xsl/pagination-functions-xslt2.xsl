@@ -4,8 +4,6 @@
   xmlns:map="http://www.w3.org/2005/xpath-functions/map"
   exclude-result-prefixes="#all">
 
-  <xsl:import href="functx-1.0-nodoc-2007-01.xslt"/>
-
   <xsl:param name="prev" as="xs:string">Previous</xsl:param>
   <xsl:param name="next" as="xs:string">Next</xsl:param>
   <xsl:param name="omission" as="xs:string">…</xsl:param>
